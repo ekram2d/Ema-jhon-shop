@@ -26,7 +26,7 @@ const Shop = () => {
               
 
             }
-            console.log(newarray);
+            // console.log(newarray);
             setProduct(newarray);
       }, [products])
       // console.log(product);

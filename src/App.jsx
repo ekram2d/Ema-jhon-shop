@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './Components/Header/Header'
 import Shop from './Components/Shop/Shop'
+import { Outlet } from 'react-router-dom'
 
 
 function App() {
@@ -12,9 +13,10 @@ function App() {
   return (
    
     <div className="App">
-     <Header></Header>
-      <Shop></Shop>
- 
+      
+  
+      <Header></Header>
+       <Shop></Shop>
 
     </div>
 

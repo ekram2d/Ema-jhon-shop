@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Cards = ({product}) => {
-      console.log(product);
+      // console.log(product);
 
 
       let total =0 ;
